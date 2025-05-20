@@ -27,7 +27,7 @@ const SectionOculosJoias = () => {
           variants={fadeUp}
           className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
         >
-          <h2 className="text-2xl font-heebo md:text-4xl font-semibold mb-2">
+          <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
             Óculos solares<br />e armações
           </h2>
           <p className="text-sm md:text-base font-public-sans leading-snug">
@@ -71,7 +71,7 @@ const SectionOculosJoias = () => {
             <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white text-center px-4">
-              <h3 className="text-xl md:text-2xl font-heebo font-semibold mb-1">{item.title}</h3>
+              <h3 className="text-3xl md:text-5xl font-heebo font-normal mb-1">{item.title}</h3>
               <p className="text-sm font-public-sans whitespace-pre-line">{item.description}</p>
             </div>
           </motion.div>
