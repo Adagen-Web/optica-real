@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Public_Sans, Heebo,  } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Nav";
 
 const publicSans = Public_Sans({
   variable: "--font-public-sans",
@@ -27,7 +29,11 @@ export default function RootLayout({
       <body
         className={`${publicSans.variable} ${heebo.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <div>
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );

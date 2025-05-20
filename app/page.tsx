@@ -1,7 +1,5 @@
 import BrandCarousel from "./components/BrandCarousel";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Navbar from "./components/Nav";
 import SectionExperiencia from "./components/SectionExperiencia";
 import SectionOculosJoias from "./components/SectionOculosJoias";
 import SectionPublico from "./components/SectionPublico";
@@ -12,7 +10,6 @@ import SocialMediaCarousel from "./components/SocialMediaCarousel";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <BrandCarousel />
       <SectionTitle />
@@ -23,7 +20,6 @@ export default function Home() {
 
       <SocialMediaCarousel />
       <SectionExperiencia />
-      <Footer />
     </>
   );
 }

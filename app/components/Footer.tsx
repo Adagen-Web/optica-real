@@ -21,19 +21,19 @@ const Footer = () => {
         <div className="space-y-2">
           <p className="text-xl tracking-[2px] text-white font-heebo font-normal">HORÁRIOS DE ATENDIMENTO</p>
 
-          <p>
+          <p className='font-heebo'>
             <strong>Segunda a sexta-feira</strong><br />
             Das 9:00 às 12:00<br />
             e das 13:30 às 18:30
           </p>
 
-          <p className="pt-4">
+          <p className="pt-4 font-heebo">
             <strong>Sábados</strong><br />
             Das 9:00 às 12:00<br />
             e das 14:00 às 18:00
           </p>
 
-          <p className="pt-4">
+          <p className="pt-4 font-heebo">
             <strong>Dezembro a fevereiro*</strong><br />
             Fechamento às 19:00
           </p>
