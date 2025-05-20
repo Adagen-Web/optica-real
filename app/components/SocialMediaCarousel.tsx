@@ -17,7 +17,7 @@ const mediaImages = [
 const SocialMediaCarousel = () => {
   return (
     <section className="bg-black py-16">
-      <h2 className="text-white text-center text-3xl font-semibold mb-10">
+      <h2 className="text-white text-center tracking-[-1px] text-4xl font-normal font-heebo mb-10">
         Nossas mídias sociais
       </h2>
 

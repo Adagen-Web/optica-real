@@ -3,16 +3,16 @@ const SectionSobre = () => {
     <section className="w-full bg-white">
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch">
         {/* TEXTO À ESQUERDA */}
-        <section className="flex justify-center items-center py-12 px-4">
+        <section className="flex justify-center items-center py-12 px-4 font-sans">
           <div className="flex flex-col justify-center max-w-sm md:max-w-md w-full">
             <p className="text-lg md:text-xl text-gray-800 leading-relaxed mb-4">
-              Temos opções que combinam <strong>estilo e qualidade</strong> em peças perfeitas para todas as idades e ocasiões.
+              Temos opções que combinam <span className="font-extrabold">estilo e qualidade</span> em peças perfeitas para todas as idades e ocasiões.
             </p>
             <p className="text-lg md:text-xl text-gray-800 leading-relaxed mb-6">
               Nós da Real oferecemos o que há de melhor no mundo da relojoaria e ótica.{' '}
-              <strong>Encontre a peça que reflete a sua personalidade!</strong>
+              <span className="font-extrabold">Encontre a peça que reflete a sua personalidade!</span>
             </p>
-            <button className="border border-gray-700 text-gray-800 px-6 py-3 text-sm rounded hover:bg-gray-100 transition w-fit">
+            <button className="border cursor-pointer border-gray-700 text-gray-800 px-6 py-3 mt-6 text-sm rounded hover:bg-gray-100 transition w-fit">
               Saiba mais sobre nós
             </button>
           </div>
