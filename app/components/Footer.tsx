@@ -8,13 +8,13 @@ const Footer = () => {
         {/* COLUNA 1: LOCALIZAÇÃO */}
         <div className="space-y-2">
           <p className="text-xl tracking-[2px] text-white font-heebo font-normal">LOCALIZAÇÃO</p>
-          <p>Av. Barão do Rio Branco, 58<br />Centro, Torres | RS</p>
+          <p className='font-public-sans'>Av. Barão do Rio Branco, 58<br />Centro, Torres | RS</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">E-MAIL</p>
-          <p>realtorrers@gmail.com</p>
+          <p className='font-public-sans'>realtorrers@gmail.com</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">FONES</p>
-          <p>(51) 3664.6177<br />(51) 3626.1913</p>
+          <p className='font-public-sans'>(51) 3664.6177<br />(51) 3626.1913</p>
         </div>
 
         {/* COLUNA 2: HORÁRIOS */}
