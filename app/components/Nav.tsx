@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link href="/sobre" className="hover:text-orange transition-colors">
             SOBRE
           </Link>
-          <Link href="#marcas" className="hover:text-orange transition-colors">
+          <Link href="/marcas" className="hover:text-orange transition-colors">
             MARCAS
           </Link>
           <Link href="/contato" className="hover:text-orange transition-colors">
