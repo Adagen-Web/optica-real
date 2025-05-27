@@ -14,6 +14,12 @@ export default function Home() {
       <BrandCarousel />
       <SectionTitle />
       <SectionOculosJoias />
+      {/* Botão topo */}
+      <div className="pb-8 pt-12 text-center bg-off-white">
+        <a href="/marcas" className="border border-black cursor-pointer font-heebo bg-white px-4 py-3 text-sm hover:bg-black hover:text-white transition-colors">
+          Conheça mais marcas
+        </a>
+      </div>
       <div className="h-8 bg-off-white w-full" />
       <SectionPublico />
       <SectionSobre />

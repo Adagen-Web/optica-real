@@ -3,7 +3,7 @@ import { HiArrowUp } from 'react-icons/hi';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#161616] text-white px-4 py-10 text-sm">
+    <footer className="bg-[#161616] text-white px-12 py-16 text-sm">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         {/* COLUNA 1: LOCALIZAÇÃO */}
         <div className="space-y-2">
