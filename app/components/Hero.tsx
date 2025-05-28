@@ -26,7 +26,7 @@ const slides = [
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[600px] md:h-[700px]">
+    <div className="relative w-full h-[75vh] md:h-screen">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{
@@ -34,7 +34,7 @@ const Hero = () => {
           bulletClass: 'custom-bullet',
           bulletActiveClass: 'custom-bullet-active',
         }}
-        autoplay={{ delay: 8000 }}
+        autoplay={{ delay: 5000 }}
         loop
         className="h-full"
       >
@@ -44,12 +44,12 @@ const Hero = () => {
               <img
                 src={slide.src}
                 alt={slide.alt}
-                className="object-cover object-center"
+                className="object-cover h-full w-full object-center"
               />
-              <div className="absolute inset-0 bg-black/30" />
-              <div className="absolute z-10 top-[30%] left-12 md:left-56 text-white">
+              <div className="absolute inset-0 bg-black/40" />
+              <div className="absolute z-10 top-[45%] left-12 md:left-56 text-white">
                 <h2
-                  className="text-3xl md:text-5xl font-light max-w-[20ch]"
+                  className="text-3xl md:text-5xl font-normal font-heebo max-w-[20ch]"
                   dangerouslySetInnerHTML={{ __html: slide.text }}
                 />
               </div>
