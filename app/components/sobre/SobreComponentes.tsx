@@ -3,8 +3,8 @@ const MissaoVisaoValores = () => {
     <section className="bg-off-white px-4 py-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center relative">
         {/* Texto com sobreposição centralizada */}
-        <div className="bg-white shadow-lg p-8 md:p-12 z-10 w-full items-center md:max-w-2xl relative md:-translate-y-8">
-          <div className="space-y-10">
+        <div className="bg-white shadow-lg p-8 md:p-16 z-10 w-full items-center md:max-w-2xl relative md:-translate-y-8">
+          <div className="space-y-14">
             {[
               {
                 titulo: 'Missão',
@@ -22,7 +22,7 @@ const MissaoVisaoValores = () => {
                   'Qualidade de nossos produtos, prezando pela saúde visual e bem-estar de nossos clientes. Ética, transparência e confiança, proporcionando aos nossos clientes segurança e a satisfação em suas escolhas.',
               },
             ].map(({ titulo, texto }) => (
-              <div key={titulo} className="flex flex-col md:flex-row gap-6 items-center">
+              <div key={titulo} className="flex flex-col md:flex-row gap-16 pl-12 pr-4 items-center">
                 <h3 className="text-3xl text-[#313131] font-normal font-heebo w-24 shrink-0">{titulo}</h3>
                 <p className="text-[#313131] font-public-sans text-base leading-relaxed text-center md:text-left">{texto}</p>
               </div>
