@@ -20,29 +20,35 @@ const SectionSobre = () => {
 
 
         {/* GRADE DE IMAGENS À DIREITA */}
-        <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
-          <div className="col-span-2">
-            <img
-              src="/oculos1.png"
-              alt="Modelo óculos 1"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-0 w-full h-full">
+          {/* Imagem 1: topo no mobile, canto superior esquerdo no desktop */}
+          <div className="md:row-span-1 md:col-span-1">
             <img
               src="/oculos2.png"
-              alt="Modelo óculos 2"
-              className="w-full h-full object-cover"
+              alt="Modelo óculos 1"
+              className="w-full h-[250px] md:h-full object-cover"
             />
           </div>
-          <div>
+
+          {/* Imagem 3: meio no mobile, coluna direita inteira no desktop */}
+          <div className="md:row-span-2 md:col-span-1">
+            <img
+              src="/oculos1.png"
+              alt="Modelo óculos 3"
+              className="w-full h-[300px] md:h-full object-cover"
+            />
+          </div>
+
+          {/* Imagem 2: base no mobile, canto inferior esquerdo no desktop */}
+          <div className="md:row-span-1 md:col-span-1">
             <img
               src="/oculos3.jpg"
-              alt="Modelo óculos 3"
-              className="w-full h-full object-cover"
+              alt="Modelo óculos 2"
+              className="w-full h-[250px] md:h-full object-cover"
             />
           </div>
         </div>
+
       </div>
     </section>
   );
