@@ -3,7 +3,7 @@ import { Public_Sans, Heebo,  } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Nav";
-
+import WhatsAppButton from "./components/WhatsAppButton";
 const publicSans = Public_Sans({
   variable: "--font-public-sans",
   subsets: ["latin"],
@@ -32,6 +32,7 @@ export default function RootLayout({
         <Navbar />
         <div>
           {children}
+          <WhatsAppButton />
         </div>
         <Footer />
       </body>

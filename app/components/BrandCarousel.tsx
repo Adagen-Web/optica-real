@@ -8,27 +8,19 @@ import Image from 'next/image';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const brands = [
-  './brands/dg.webp',
-  './brands/giorgio-armani.jpg',
+  './brands/DeG.png',
+  './brands/Armani.png',
   './brands/gucci.png',
-  './brands/prada.png',
-  './brands/ray-ban.png',
-  './brands/tom-ford.png',
-  './brands/versace.jpg',
+  './brands/Prada.png',
+  './brands/Rayban.png',
+  './brands/TomFord.png',
+  './brands/Versace.png',
   './brands/ysl.png',
 ];
 
 const BrandCarousel = () => {
   return (
     <div className="relative w-full bg-white py-6 px-4">
-      {/* Navigation buttons */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-10">
-        <div className="swiper-button-prev cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center" />
-      </div>
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 z-10">
-        <div className="swiper-button-next cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center" />
-      </div>
-
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation={{
@@ -37,7 +29,7 @@ const BrandCarousel = () => {
         }}
         loop={true}
         autoplay={{
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         slidesPerView={2}
@@ -57,7 +49,7 @@ const BrandCarousel = () => {
             <img
               src={src}
               alt={`Marca ${index}`}
-              className="object-contain max-h-12 w-auto"
+              className="object-contain max-h-24 w-auto"
             />
           </SwiperSlide>
         ))}
