@@ -10,12 +10,12 @@ const slides = [
   {
     src: '/hero.jpg',
     alt: 'Modelo 1',
-    text: 'Acessórios para cada <span className="font-bold">estilo único</span>',
+    text: 'Acessórios para <br/>cada <strong>estilo único</strong>',
   },
   {
     src: '/hero-2.png',
     alt: 'Modelo 2',
-    text: 'Encontre sua <strong>marca ideal</strong>',
+    text: 'Encontre sua <br/><strong>marca ideal</strong>',
   },
   {
     src: '/hero3.png',
@@ -34,7 +34,7 @@ const Hero = () => {
           bulletClass: 'custom-bullet',
           bulletActiveClass: 'custom-bullet-active',
         }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 6000 }}
         loop
         className="h-full"
       >
@@ -46,7 +46,7 @@ const Hero = () => {
                 alt={slide.alt}
                 className="object-cover h-full w-full object-center"
               />
-              <div className="absolute inset-0 bg-black/40" />
+              <div className="absolute inset-0 bg-black/45" />
               <div className="absolute z-10 top-[45%] left-12 md:left-56 text-white">
                 <h2
                   className="text-3xl md:text-5xl font-normal font-heebo max-w-[20ch]"
