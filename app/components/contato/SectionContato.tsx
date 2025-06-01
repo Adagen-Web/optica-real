@@ -17,7 +17,7 @@ const SectionContato = () => {
         </div>
 
         {/* Coluna: Localização */}
-        <div className="flex flex-col items-center justify-center space-y-2">
+        <div className="flex flex-col items-center justify-center space-y-4">
           <FaMapMarkerAlt size={24} />
           <h4 className="tracking-[2.5px] uppercase text-xl font-light font-heebo">Localização</h4>
           <p className="text-base leading-snug font-public-sans">
