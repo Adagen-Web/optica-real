@@ -17,7 +17,7 @@ const SectionOculosJoias = () => {
           alt="Óculos solares"
           className="w-full h-full object-cover object-left"
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/60" />
 
         <motion.div
           initial="hidden"
@@ -66,7 +66,7 @@ const SectionOculosJoias = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 * index }}
             variants={fadeUp}
-            className="relative h-[720px] md:h-[500px]"
+            className="relative h-[720px] md:h-[580px]"
           >
             <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-black/40" />
