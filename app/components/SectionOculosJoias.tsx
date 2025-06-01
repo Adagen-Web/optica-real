@@ -46,7 +46,7 @@ const SectionOculosJoias = () => {
           {
             title: 'Joalheria',
             description: 'Bruner; Guiandani; Ícaro;\nJoias autorais.',
-            image: './joalheria.jpeg',
+            image: './alianca-bruner.png',
           },
           {
             title: 'Relojoaria',

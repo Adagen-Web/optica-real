@@ -18,7 +18,7 @@ const marcas = [
     layout: "horizontal"
   },
   {
-    image: "./joalheria.jpeg",
+    image: "./alianca-bruner.png",
     title: "Joalheria",
     brands: ["Bruner, ", "Guindani, ", "Ícaro, ", "Joias autorais"],
     layout: "horizontal"
