@@ -14,19 +14,19 @@ const marcas = [
   {
     image: "./lentes.jpg",
     title: "Lentes de contato",
-    brands: ["Bausch Lomb", "Coopervision", "Johnson & Johnson"],
+    brands: ["Bausch Lomb, ", "Coopervision, ", "Johnson & Johnson."],
     layout: "horizontal"
   },
   {
     image: "./joalheria.jpeg",
     title: "Joalheria",
-    brands: ["Bruner", "Guindani", "Ícaro", "Joias autorais"],
+    brands: ["Bruner, ", "Guindani, ", "Ícaro, ", "Joias autorais"],
     layout: "horizontal"
   },
   {
     image: "./relogio.png",
     title: "Relojoaria",
-    brands: ["Casio", "Guess", "Mondaine", "Orient", "Technos"],
+    brands: ["Casio, ", "Guess, ", "Mondaine, ", "Orient, ", "Technos."],
     layout: "horizontal"
   }
 ];
@@ -39,7 +39,7 @@ const MarcasGrid = () => {
           key={idx}
           className="flex flex-col transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg"
         >
-          <div className="relative w-full h-[400px] overflow-hidden">
+          <div className="relative w-full h-[600px] overflow-hidden object-cover object-center">
             <img
               src={marca.image}
               alt={marca.title}
@@ -54,11 +54,11 @@ const MarcasGrid = () => {
                 : "flex-col items-start gap-4"
               }`}
           >
-            <h3 className="text-2xl md:text-3xl font-semibold font-heebo">
+            <h3 className="text-4xl md:text-5xl font-semibold font-heebo">
               {marca.title}
             </h3>
             <p className="text-sm md:text-base leading-relaxed font-light font-public-sans">
-              {marca.brands.join("; ")};
+              {marca.brands};
             </p>
           </div>
         </div>
