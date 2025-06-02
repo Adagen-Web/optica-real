@@ -16,7 +16,7 @@ const FormContato = () => {
   };
 
   return (
-    <section className="bg-off-white py-20 px-4">
+    <section className="bg-off-white py-34 px-4">
       <div className="text-center mb-10">
         <h2 className="text-4xl font-normal tracking-[-1px] font-heebo text-[#2A2A29] border-b-2 inline-block border-[#ce954a] pb-1">
           Entre em contato
