@@ -26,7 +26,7 @@ const SectionSobre = () => {
             <img
               src="/oculos2.png"
               alt="Modelo óculos 1"
-              className="w-full h-[250px] md:h-full object-cover"
+              className="w-full h-[250px] md:h-[310px] object-cover"
             />
           </div>
 
