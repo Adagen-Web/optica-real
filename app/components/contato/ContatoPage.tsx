@@ -6,7 +6,7 @@ const ContatoPage = () => {
       {/* Hero da logo */}
       <section className="relative w-full h-[85vh] border-b border-[#707070]">
         <Image
-          src="/contact-hero.png" // substitua com caminho correto
+          src="/hero3.png" // substitua com caminho correto
           alt="Fachada Óptica Real"
           fill
           className="object-cover object-top"

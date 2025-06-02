@@ -13,18 +13,22 @@ const FormContato = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
+    // fake delay
+    setTimeout(() => setStatus('success'), 1000);
   };
 
   return (
-    <section className="bg-off-white py-34 px-4">
+    <section className="relative z-20 bg-off-white pt-20 pb-0 px-4">
       <div className="text-center mb-10">
         <h2 className="text-4xl font-normal tracking-[-1px] font-heebo text-[#2A2A29] border-b-2 inline-block border-[#ce954a] pb-1">
           Entre em contato
         </h2>
-        <p className="mt-2 text-[#2A2A29] font-public-sans font-normal">e saiba mais sobre o que podemos fazer por você!</p>
+        <p className="mt-2 text-[#2A2A29] font-public-sans font-normal">
+          e saiba mais sobre o que podemos fazer por você!
+        </p>
       </div>
 
-      <div className="max-w-4xl mx-auto bg-white shadow-md p-8">
+      <div className="max-w-4xl mx-auto bg-white shadow-md p-8 relative z-30">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-6 font-public-sans font-normal">
             <input
