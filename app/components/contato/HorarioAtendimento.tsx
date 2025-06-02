@@ -13,7 +13,7 @@ const BusinessHours = () => {
             Horários de atendimento
           </h2>
 
-          <div className="space-y-12 mt-6">
+          <div className="space-y-8 mt-6">
             {/* Monday to Friday */}
             <div className="flex flex-col md:flex-row md:items-start gap-2 md:gap-10">
               <h3 className="text-xl md:text-2xl text-[#313131] font-heebo font-normal w-48">
@@ -49,8 +49,8 @@ const BusinessHours = () => {
         </div>
 
         {/* Right side - Image */}
-        <div className="relative -my-14 md:-my-12">
-          <div className="h-[500px] w-full md:h-[140%]">
+        <div className="relative w-full -my-24 md:-my-14">
+          <div className="h-[450px] w-full md:h-[90%]">
             <img
               src="./social/1.png"
               alt="Woman in jewelry store"

@@ -1,6 +1,6 @@
 const MapSection = () => {
   return (
-    <section className="-mt-2 z-0 relative w-full h-[600px] bg-[#e5e5e5]">
+    <section className="pt-16 z-0 relative w-full h-[600px] bg-off-white">
       <iframe
         title="Mapa Óptica Real"
         src="https://www.google.com/maps?q=Av.+Bar%C3%A3o+do+Rio+Branco,+58,+Centro,+Torres,+RS&output=embed"

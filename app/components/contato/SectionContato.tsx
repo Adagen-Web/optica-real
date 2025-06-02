@@ -5,7 +5,7 @@ const SectionContato = () => {
     <section className="bg-[#f7f6f2] py-28 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center text-neutral-900">
         {/* Coluna: E-mail e redes sociais */}
-        <div className="space-y-6">
+        <div className="space-y-4">
           <div>
             <h4 className="tracking-[2.5px] uppercase text-xl font-light font-heebo">E-mail</h4>
             <p className="mt-1 text-base font-public-sans">realtorrsrs@gmail.com</p>
