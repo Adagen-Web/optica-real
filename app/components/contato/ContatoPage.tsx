@@ -4,7 +4,7 @@ const ContatoPage = () => {
   return (
     <main className="w-full">
       {/* Hero da logo */}
-      <section className="relative w-full h-[85vh] border-b border-[#707070]">
+      <section className="relative w-full h-[65vh] border-b border-[#707070]">
         <Image
           src="/hero3.png" // substitua com caminho correto
           alt="Fachada Óptica Real"

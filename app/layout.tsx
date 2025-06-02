@@ -25,7 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
+      <head>
+        {/* Script do LightWidget para carregar o feed do Instagram */}
+        <script
+          src="https://cdn.lightwidget.com/widgets/lightwidget.js"
+          async
+        ></script>
+      </head>
       <body
         className={`${publicSans.variable} ${heebo.variable} antialiased`}
       >

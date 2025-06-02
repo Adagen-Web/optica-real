@@ -1,7 +1,7 @@
 // components/MarcasHero.tsx
 const MarcasHero = () => {
   return (
-    <section className="relative w-full h-[85vh]">
+    <section className="relative w-full h-[65vh]">
       <img
         src="./hero-marcas.png"
         alt="Imagem de destaque marcas"
