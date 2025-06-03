@@ -66,7 +66,7 @@ const SectionOculosJoias = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 * index }}
             variants={fadeUp}
-            className="relative h-[720px] md:h-[580px]"
+            className="relative h-[720px] md:h-[820px]"
           >
             <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-black/40" />
