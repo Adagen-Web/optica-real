@@ -47,7 +47,7 @@ const Hero = () => {
                 className="object-cover h-full w-full object-center"
               />
               <div className="absolute inset-0 bg-black/45" />
-              <div className="absolute z-10 top-[45%] left-12 md:left-80 text-white">
+              <div className="absolute z-10 top-[45%] left-12 md:left-56 text-white">
                 <h2
                   className="text-4xl md:text-6xl font-normal font-heebo max-w-[20ch]"
                   dangerouslySetInnerHTML={{ __html: slide.text }}

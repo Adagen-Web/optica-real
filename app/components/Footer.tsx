@@ -61,7 +61,7 @@ const Footer = () => {
             <a href="#" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaWhatsapp size={16} />
             </a>
-            <a href="#" className="border border-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-white hover:text-black transition">
+            <a href="/" className="border border-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-white hover:text-black transition">
               <HiArrowUp size={18} />
             </a>
           </div>
