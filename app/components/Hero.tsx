@@ -17,11 +17,6 @@ const slides = [
     alt: 'Modelo 2',
     text: 'Encontre sua <br/><strong>marca ideal</strong>',
   },
-  {
-    src: '/hero3.png',
-    alt: 'Modelo 3',
-    text: 'Conforto e <strong>elegância</strong> todos os dias',
-  },
 ];
 
 const Hero = () => {

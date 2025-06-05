@@ -42,7 +42,7 @@ const SectionSobre = () => {
           {/* Imagem 2: base no mobile, canto inferior esquerdo no desktop */}
           <div className="md:row-span-1 md:col-span-1">
             <img
-              src="/oculos3.jpg"
+              src="/oculos3.png"
               alt="Modelo óculos 2"
               className="w-full h-[250px] md:h-full object-cover"
             />

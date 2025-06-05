@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -12,12 +13,16 @@ const SectionOculosJoias = () => {
     <section className="w-full bg-off-white">
       {/* Banner grande */}
       <div className="relative w-full h-[400px] md:h-[700px]">
-        <img
-          src="./oculos.png"
-          alt="Óculos solares"
-          className="w-full h-full object-cover object-left"
-        />
-        <div className="absolute inset-0 bg-black/60" />
+        <Link href="/marcas">
+          <div className="relative w-full h-[400px] md:h-[700px] overflow-hidden group cursor-pointer">
+            <img
+              src="./oculos.png"
+              alt="Óculos solares"
+              className="w-full h-full object-cover object-left transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black/45" />
+          </div>
+        </Link>
 
         <motion.div
           initial="hidden"
@@ -59,22 +64,27 @@ const SectionOculosJoias = () => {
             image: './lentes.jpg',
           },
         ].map((item, index) => (
-          <motion.div
-            key={index}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 * index }}
-            variants={fadeUp}
-            className="relative h-[720px] md:h-[820px]"
-          >
-            <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-black/40" />
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white text-center px-4">
-              <h3 className="text-3xl md:text-5xl font-heebo font-normal mb-1">{item.title}</h3>
-              <p className="text-sm font-public-sans whitespace-pre-line">{item.description}</p>
-            </div>
-          </motion.div>
+          <Link href="/marcas" key={index}>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 * index }}
+              variants={fadeUp}
+              className="relative h-[550px] md:h-[600px] cursor-pointer group overflow-hidden"
+            >
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/45 transition-opacity group-hover:bg-black/50" />
+              <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white text-center px-4">
+                <h3 className="text-3xl md:text-5xl font-heebo font-normal mb-1">{item.title}</h3>
+                <p className="text-sm font-public-sans whitespace-pre-line">{item.description}</p>
+              </div>
+            </motion.div>
+          </Link>
         ))}
       </div>
     </section>

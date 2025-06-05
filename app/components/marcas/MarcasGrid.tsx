@@ -57,7 +57,7 @@ const MarcasGrid = () => {
                 : 'flex-col items-start gap-4'
               }`}
           >
-            <h3 className="text-4xl md:text-5xl font-semibold font-heebo">
+            <h3 className="text-4xl md:text-5xl font-normal font-heebo">
               {marca.title}
             </h3>
             <p className="text-sm md:text-base leading-relaxed font-light font-public-sans">
