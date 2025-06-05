@@ -1,11 +1,18 @@
 'use client'
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Fecha o menu quando a URL muda
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
 
   return (
     <header className="bg-off-white text-gray-dark border-b border-gray-300">
@@ -18,7 +25,6 @@ const Navbar = () => {
             className="h-10 md:h-14 w-auto object-contain"
           />
         </a>
-
 
         {/* Menu desktop */}
         <nav className="hidden md:flex gap-8 text-black text-base font-heebo font-semibold tracking-wide">
@@ -51,6 +57,7 @@ const Navbar = () => {
           <Link href="/sobre" className="block hover:text-orange">SOBRE</Link>
           <Link href="/marcas" className="block hover:text-orange">MARCAS</Link>
           <Link href="/contato" className="block hover:text-orange">CONTATO</Link>
+
           <div className="flex gap-4 mt-4 text-orange">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
