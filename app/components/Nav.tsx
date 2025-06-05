@@ -11,13 +11,14 @@ const Navbar = () => {
     <header className="bg-off-white text-gray-dark border-b border-gray-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo */}
-        <a href="/">
+        <a href="/" className="block">
           <img
             src="/logo-optica.png"
             alt="Óptica Real"
-            className='w-full h-10 md:h-15'
+            className="h-10 md:h-14 w-auto object-contain"
           />
         </a>
+
 
         {/* Menu desktop */}
         <nav className="hidden md:flex gap-8 text-black text-base font-heebo font-semibold tracking-wide">
