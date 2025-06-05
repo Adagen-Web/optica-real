@@ -15,7 +15,7 @@ const Navbar = () => {
           <img
             src="/logo-optica.png"
             alt="Óptica Real"
-            className='w-full h-15'
+            className='w-full h-12 md:h-15'
           />
         </a>
 

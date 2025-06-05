@@ -9,7 +9,7 @@ const BusinessHours = () => {
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2">
         {/* Left side - Business hours */}
         <div className="p-8 md:p-16 lg:p-20 flex flex-col justify-center">
-          <h2 className="text-2xl md:text-4xl font-heebo font-normal text-[#313131] border-b-2 border-[#ce954a] w-100 inline-block pb-1">
+          <h2 className="text-2xl md:text-4xl font-heebo font-normal text-[#313131] border-b-2 border-[#ce954a] w-74 md:w-100 inline-block pb-1">
             Horários de atendimento
           </h2>
 
@@ -49,8 +49,8 @@ const BusinessHours = () => {
         </div>
 
         {/* Right side - Image */}
-        <div className="relative w-full -my-24 md:-my-14">
-          <div className="h-[450px] w-full md:h-[90%]">
+        <div className="relative w-full my-6 md:-my-12">
+          <div className="h-[300px] md:h-[450px] w-full">
             <img
               src="./social/1.png"
               alt="Woman in jewelry store"
