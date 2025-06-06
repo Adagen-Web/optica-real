@@ -31,7 +31,7 @@ const MissaoVisaoValores = () => {
         </div>
 
         {/* Imagem à direita, menor */}
-        <div className="md:w-[40%] w-full ml-[-20px] z-99 mt-10 md:mt-0">
+        <div className="md:w-[40%] w-full md:ml-[-15px] z-99 mb-12 flex justify-center">
           <img
             src="./social/logo-optica.png"
             alt="Colaboradora Real"
