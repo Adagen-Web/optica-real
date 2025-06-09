@@ -21,15 +21,17 @@ const SobrePage = () => {
       <section className="bg-white px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto text-center text-[#313131] font-public-sans space-y-6 text-xl leading-relaxed">
           <p>
-            Em Torres, a Relojoaria e Óptica Real foi fundada em 1953 e, em 1973, foi adquirida por Fernando Nandi,
-            que, junto com seus filhos, continua à frente da direção da empresa.
-            Trata-se de uma empresa familiar, com 8 colaboradores diretos, atuando no segmento de ótica, sob a
-            supervisão de 3 técnicos ópticos e com um laboratório de lentes próprio.
+            Fundada em 1953, em Torres, a Relojoaria e Óptica Real passou a ser comandada por Fernando Nandi em 1973.
+            Desde então, ele e seus filhos seguem à frente da empresa, preservando seu caráter familiar e o compromisso com a excelência.
           </p>
+          <p>Atualmente, a Óptica conta com uma equipe de 8 colaboradores diretos, atuando com dedicação no segmento óptico,
+            sob a supervisão de 3 técnicos ópticos especializados. A empresa também possui um laboratório próprio de lentes,
+            o que garante mais controle e agilidade nos processos.</p>
           <p>
-            Em 2013, a empresa importou diretamente da Itália o Laboratório Gomes, que passou a fabricar lentes digitais
-            próprias, com qualidade e alta tecnologia, garantindo precisão nos resultados e agilidade nas entregas aos
-            clientes.
+            Em 2013, deu um importante passo ao importar da Itália o Laboratório
+            Gomes, passando a fabricar lentes digitais com tecnologia de ponta.
+            Essa inovação trouxe ainda mais precisão na produção e rapidez nas entregas,
+            elevando a experiência dos clientes a um novo patamar.
           </p>
         </div>
       </section>

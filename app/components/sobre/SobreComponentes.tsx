@@ -9,17 +9,17 @@ const MissaoVisaoValores = () => {
               {
                 titulo: 'Missão',
                 texto:
-                  'Satisfazer a necessidade do cliente, oferecendo produtos de alta qualidade e atendimento personalizado, garantindo a melhor experiência no segmento de ótica e relojoaria.',
+                  'Satisfazer as necessidades dos clientes, oferecendo produtos de alta qualidade e um atendimento personalizado, garantindo a melhor experiência no segmento de ótica e relojoaria.',
               },
               {
                 titulo: 'Visão',
                 texto:
-                  'Buscar sempre o melhor para o cliente, com inovação, excelência e compromisso com a satisfação plena das suas necessidades.',
+                  'Buscar continuamente o melhor para o cliente, com inovação, excelência e compromisso em atender plenamente às suas necessidades.',
               },
               {
                 titulo: 'Valores',
                 texto:
-                  'Qualidade de nossos produtos, prezando pela saúde visual e bem-estar de nossos clientes. Ética, transparência e confiança, proporcionando aos nossos clientes segurança e a satisfação em suas escolhas.',
+                  'Prezamos pela qualidade dos nossos produtos, priorizando a saúde visual e o bem-estar dos nossos clientes. Atuamos com ética, transparência e confiança, proporcionando segurança e satisfação em cada escolha.',
               },
             ].map(({ titulo, texto }) => (
               <div key={titulo} className="flex flex-col md:flex-row gap-16 pl-12 pr-4 items-center">
@@ -31,7 +31,7 @@ const MissaoVisaoValores = () => {
         </div>
 
         {/* Imagem à direita, menor */}
-        <div className="md:w-[40%] w-full md:ml-[-15px] z-99 mb-12 flex justify-center">
+        <div className="md:w-[40%] w-full md:ml-[-15px] z-99 mb-[-50px] flex justify-center">
           <img
             src="./social/logo-optica.png"
             alt="Colaboradora Real"

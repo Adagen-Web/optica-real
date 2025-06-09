@@ -11,7 +11,7 @@ const Footer = () => {
           <p className='font-public-sans'>Av. Barão do Rio Branco, 58<br />Centro, Torres | RS</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">E-MAIL</p>
-          <p className='font-public-sans'>realtorrers@gmail.com</p>
+          <p className='font-public-sans'>contato@oticarealtorres.com.br</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">FONES</p>
           <p className='font-public-sans'>(51) 3664.6177<br />(51) 3626.1913</p>

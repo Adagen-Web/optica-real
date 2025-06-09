@@ -8,7 +8,7 @@ const SectionContato = () => {
         <div className="space-y-4">
           <div>
             <h4 className="tracking-[2.5px] uppercase text-xl font-light font-heebo">E-mail</h4>
-            <p className="mt-1 text-base font-public-sans">realtorrsrs@gmail.com</p>
+            <p className="mt-1 text-base font-public-sans">contato@oticarealtorres.com.br</p>
           </div>
           <div>
             <h4 className="tracking-[2.5px] uppercase text-xl font-light font-heebo">Redes Sociais</h4>
