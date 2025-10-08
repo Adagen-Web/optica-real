@@ -5,7 +5,7 @@ const marcas = [
     image: "./oculos.png",
     title: "Óculos solares e armações",
     brands: [
-      "Armani", " Carrera", " Dolce Gabbana", " Emílio Pucci", " Grazi", " HB",
+      "Pucci", " Carrera", " Dolce Gabbana", " Emílio Pucci", " Grazi", " HB",
       " Mirmarflex (infantil)", " Mormaii", " Nano Vista (infantil)", " Polo Half Louren",
       " Prada", " Ray Ban", " Stepper", " Tom Ford", " Versace", "Vogue"
     ],

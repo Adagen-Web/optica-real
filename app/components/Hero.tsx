@@ -10,7 +10,7 @@ const slides = [
   {
     src: '/hero.jpg',
     alt: 'Modelo 1',
-    text: 'Acessórios para <br/>cada <strong>estilo único</strong>',
+    text: 'Óculos para <br/>cada <strong>estilo único</strong>',
   },
   {
     src: '/hero-2.png',

@@ -9,17 +9,16 @@ const MissaoVisaoValores = () => {
               {
                 titulo: 'Missão',
                 texto:
-                  'Satisfazer as necessidades dos clientes, oferecendo produtos de alta qualidade e um atendimento personalizado, garantindo a melhor experiência no segmento de ótica e relojoaria.',
+                  'Proporcionar saúde visual, beleza e estilo através dos óculos, joias e relógios de qualidade, com atendimento personalizado, valorizando a tradição de mais de 70 anos em Torres e o compromisso de satisfação do cliente.',
               },
               {
                 titulo: 'Visão',
                 texto:
-                  'Buscar continuamente o melhor para o cliente, com inovação, excelência e compromisso em atender plenamente às suas necessidades.',
+                  'Ser referência de serviços e produtos de qualidade na região, unindo a tradição e inovação.',
               },
               {
                 titulo: 'Valores',
-                texto:
-                  'Prezamos pela qualidade dos nossos produtos, priorizando a saúde visual e o bem-estar dos nossos clientes. Atuamos com ética, transparência e confiança, proporcionando segurança e satisfação em cada escolha.',
+                texto: 'Confiança e transparência, mais de 70 anos de historia; atendimento humanizado, cada cliente é muito importante para nós; qualidade e credibilidade, acompanhar as tendências sem perder a essência da marca Real; valorização da comunidade, orgulho de fazer parte da história de Torres e contribuir para o crescimento da cidade.',
               },
             ].map(({ titulo, texto }) => (
               <div key={titulo} className="flex flex-col md:flex-row gap-16 pl-12 pr-4 items-center">

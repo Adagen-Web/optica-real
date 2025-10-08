@@ -11,13 +11,13 @@ const SocialMediaCarousel = () => {
       <div className="w-full max-w-[90vw] mx-auto overflow-hidden">
         {/* LightWidget requires their JS script */}
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-        <iframe
+        {/* <iframe
           title="Instagram Feed Óptica Real"
           src="https://lightwidget.com/widgets/2d72c4b1952f5b16be7d5a012cb63209.html"
           scrolling="no"
           allowTransparency={true}
           className="w-full h-[500px] border-none"
-        ></iframe>
+        ></iframe> */}
       </div>
     </section>
   );

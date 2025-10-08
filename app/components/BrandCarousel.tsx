@@ -4,11 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import Image from 'next/image';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const brands = [
-  './brands/DeG.png',
+  './brands/pucci.png',
   './brands/Armani.png',
   './brands/gucci.png',
   './brands/Prada.png',

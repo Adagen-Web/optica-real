@@ -21,17 +21,19 @@ const SobrePage = () => {
       <section className="bg-white px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto text-center text-[#313131] font-public-sans space-y-6 text-xl leading-relaxed">
           <p>
-            Fundada em 1953, em Torres, a Relojoaria e Óptica Real passou a ser comandada por Fernando Nandi em 1973.
-            Desde então, ele e seus filhos seguem à frente da empresa, preservando seu caráter familiar e o compromisso com a excelência.
+            Fundada em 1953 na cidade de Torres foi pioneira do ramo.
           </p>
-          <p>Atualmente, a Óptica conta com uma equipe de 8 colaboradores diretos, atuando com dedicação no segmento óptico,
-            sob a supervisão de 3 técnicos ópticos especializados. A empresa também possui um laboratório próprio de lentes,
-            o que garante mais controle e agilidade nos processos.</p>
           <p>
-            Em 2013, deu um importante passo ao importar da Itália o Laboratório
-            Gomes, passando a fabricar lentes digitais com tecnologia de ponta.
-            Essa inovação trouxe ainda mais precisão na produção e rapidez nas entregas,
-            elevando a experiência dos clientes a um novo patamar.
+            Em 1973 Fernando Nandi e Zenilda, sua esposa, vindos de Osório com filhos estabeleceram-se aqui e passaram a comandar a empresa. 
+            Ele com a experiência na ourivesaria e formação em Técnico de Óptica pelo Senac em 1968. 
+            Ela com a experiência em comércio desde a sua mocidade.
+          </p>
+          <p>
+            Atualmente a Real é dirigida pela família, com três profissionais ópticos formados que oferecem o respaldo da parte técnica.
+          </p>
+          <p>
+            Em 2013 um importante passo foi dado, com o intuito de oferecer um serviço mais qualificado e ágil, 
+            de importar o laboratório óptico GOMES de tecnologia digital diretamente da Itália, berço do setor óptico mundial.
           </p>
         </div>
       </section>

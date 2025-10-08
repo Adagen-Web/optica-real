@@ -14,7 +14,7 @@ const Footer = () => {
           <p className='font-public-sans'>contato@oticarealtorres.com.br</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">FONES</p>
-          <p className='font-public-sans'>(51) 3664.6177<br />(51) 3626.1913</p>
+          <p className='font-public-sans'>(51) 3665-1677</p>
         </div>
 
         {/* COLUNA 2: HORÁRIOS */}
@@ -24,7 +24,7 @@ const Footer = () => {
           <p className='font-heebo'>
             <strong>Segunda a sexta-feira</strong><br />
             Das 9:00 às 12:00<br />
-            e das 13:30 às 18:30
+            e das 13:30 às 18:15
           </p>
 
           <p className="pt-4 font-heebo">
@@ -58,7 +58,7 @@ const Footer = () => {
             <a href="#" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaInstagram size={16} />
             </a>
-            <a href="#" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
+            <a href="https://wa.me/5551985011913" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaWhatsapp size={16} />
             </a>
             <a href="/" className="border border-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-white hover:text-black transition">
