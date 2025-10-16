@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../../app/hero-swiper.css';
+import { FaWhatsapp } from 'react-icons/fa6';
 
 const slides = [
   {
@@ -44,9 +45,13 @@ const Hero = () => {
               <div className="absolute inset-0 bg-black/45" />
               <div className="absolute z-10 top-[45%] left-12 md:left-56 text-white">
                 <h2
-                  className="text-3xl md:text-4xl font-semibold font-heebo max-w-[20ch]"
+                  className="text-3xl md:text-4xl mb-4 font-semibold font-heebo max-w-[20ch]"
                   dangerouslySetInnerHTML={{ __html: slide.text }}
                 />
+                <a href="https://api.whatsapp.com/send/?phone=5551985011913" target="_blank" rel="noopener noreferrer"
+                  className="border border-black cursor-pointer font-heebo text-black bg-white px-4 py-3 text-sm hover:bg-black hover:text-white transition-colors inline-block">
+                  Fale conosco
+                </a>
               </div>
             </div>
           </SwiperSlide>
