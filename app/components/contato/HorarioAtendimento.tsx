@@ -20,7 +20,7 @@ const BusinessHours = () => {
               </h3>
               <div className="text-sm md:text-base font-public-sans text-[#313131]">
                 <p>Das 9:00 às 12:00</p>
-                <p>e das 13:30 às 18:30</p>
+                <p>e das 13:30 às 18:15</p>
               </div>
             </div>
 
