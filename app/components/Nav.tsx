@@ -15,8 +15,8 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <header className="bg-off-white text-gray-dark border-b border-gray-300">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+    <header className="bg-off-white w-full text-gray-dark border-b border-gray-300">
+      <div className="w-full max-w-7xl mx-auto flex items-center justify-between py-4 px-4">
         {/* Logo */}
         <a href="/" className="block">
           <img

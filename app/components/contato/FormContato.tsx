@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 const FormContato = () => {
-  const [form, setForm] = useState({ nome: '', email: '', mensagem: '' });
+  const [form, setForm] = useState({ nome: '', telefone: '', mensagem: '' });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -41,10 +41,10 @@ const FormContato = () => {
               className="border border-black w-full px-4 py-3 text-sm focus:outline-none"
             />
             <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={form.email}
+              type="tel"
+              name="telefone"
+              placeholder="Telefone"
+              value={form.telefone}
               onChange={handleChange}
               required
               className="border border-black w-full px-4 py-3 text-sm focus:outline-none"
