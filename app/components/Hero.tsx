@@ -10,12 +10,12 @@ const slides = [
   {
     src: '/hero.jpg',
     alt: 'Modelo 1',
-    text: 'Óculos para <br/>cada <strong>estilo único</strong>',
+    text: 'Joias, Óculos e Relógios com mais de 70 anos de sofisticação.',
   },
   {
     src: '/hero-2.png',
     alt: 'Modelo 2',
-    text: 'Encontre sua <br/><strong>marca ideal</strong>',
+    text: 'Laboratório próprio, marcas premium, técnicos especializados',
   },
 ];
 
@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-black/45" />
               <div className="absolute z-10 top-[45%] left-12 md:left-56 text-white">
                 <h2
-                  className="text-4xl md:text-6xl font-normal font-heebo max-w-[20ch]"
+                  className="text-3xl md:text-4xl font-semibold font-heebo max-w-[20ch]"
                   dangerouslySetInnerHTML={{ __html: slide.text }}
                 />
               </div>
