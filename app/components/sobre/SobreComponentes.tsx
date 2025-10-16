@@ -51,9 +51,9 @@ const ChamadaJoalheria = () => {
           Além de sua forte atuação no setor óptico, a Relojoaria e Óptica Real se destaca pela tradição
           em joalheria e relojoaria, já que a arte de fabricar joias faz parte do seu DNA.
         </p>
-        <button className="bg-white cursor-pointer text-gray-900 font-normal font-heebo text-sm px-6 py-3 rounded shadow hover:bg-gray-100">
+        <a href="https://wa.me/5551985011913" target="_blank" rel="noopener noreferrer" className="bg-white cursor-pointer text-gray-900 font-normal font-heebo text-sm px-6 py-3 rounded shadow hover:bg-gray-100">
           Entre em contato
-        </button>
+        </a>
       </div>
     </section>
   );
