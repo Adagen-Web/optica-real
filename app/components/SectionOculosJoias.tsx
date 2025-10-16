@@ -36,7 +36,7 @@ const SectionOculosJoias = () => {
             Óculos solares<br />e armações
           </h2>
           <p className="text-sm md:text-base font-public-sans leading-snug">
-            Armani; Carrera; Dolce Gabbana; Emílio Pucci; Grazi; HB;<br />
+            Emílio Pucci; Carrera; Dolce Gabbana; Grazi; HB;<br />
             Mirmarflex (infantil); Mormaii; Nano Vista (infantil); Polo Half<br />
             Louren; Prada; Ray Ban; Stepper; Tom Ford; Versace; Vogue.
           </p>
