@@ -49,14 +49,14 @@ const SectionOculosJoias = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         {[
           {
-            title: 'Joalheria',
+            title: 'Jóias',
             description: 'Bruner; Guiandani; Ícaro;\nJoias autorais.',
-            image: './alianca-bruner.png',
+            image: './joias.png',
           },
           {
             title: 'Relojoaria',
             description: 'Casio; Guess; Mondaine;\nOrient; Technos.',
-            image: './relogio.png',
+            image: './relojoaria.png',
           },
           {
             title: 'Lentes de contato',
