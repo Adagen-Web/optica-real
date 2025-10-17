@@ -49,7 +49,7 @@ const Hero = () => {
                   dangerouslySetInnerHTML={{ __html: slide.text }}
                 />
                 <a href="https://api.whatsapp.com/send/?phone=5551985011913" target="_blank" rel="noopener noreferrer"
-                  className="border border-black cursor-pointer font-heebo text-black bg-white px-4 py-3 text-sm hover:bg-black hover:text-white transition-colors inline-block">
+                  className=" cursor-pointer font-heebo text-white bg-brown-light px-4 py-3 text-sm hover:bg-brown-dark hover:text-white transition-colors inline-block">
                   Fale conosco
                 </a>
               </div>
