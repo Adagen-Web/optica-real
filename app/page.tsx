@@ -23,7 +23,7 @@ export default function Home() {
       <SectionPublico />
       <SectionSobre />
 
-      <SocialMediaCarousel />
+      {/* <SocialMediaCarousel /> */}
       <SectionExperiencia />
     </>
   );
