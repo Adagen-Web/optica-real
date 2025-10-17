@@ -14,6 +14,9 @@ const brands = [
   './brands/TomFord.png',
   './brands/Versace.png',
   './brands/ysl.png',
+  './brands/casio-logo.png',
+  './brands/orient-relogios.png',
+  './brands/tecnos.png',
 ];
 
 const BrandCarousel = () => {
