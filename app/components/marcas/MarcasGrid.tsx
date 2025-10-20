@@ -66,7 +66,7 @@ const MarcasGrid = () => {
       <div className="absolute inset-0 bg-black/55 z-10" />
       
       {/* Conteúdo sobreposto */}
-      <div className={`absolute inset-0 z-20 flex flex-col justify-center px-6 md:px-12 text-white ${
+      <div className={`absolute inset-0 z-20 flex flex-col justify-end pb-8 px-6 md:px-12 text-white ${
         marca.textPosition === 'right' 
           ? 'items-end text-right' 
           : 'items-start text-left'
@@ -91,14 +91,14 @@ const MarcasGrid = () => {
       
       {/* Primeira linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(armacoesLentes, "w-full h-[400px] md:h-[500px]")}
-        {renderMarca(lentesContato, "w-full h-[400px] md:h-[500px]")}
+        {renderMarca(armacoesLentes, "w-full h-[500px] md:h-[600px]")}
+        {renderMarca(lentesContato, "w-full h-[500px] md:h-[600px]")}
       </div>
       
       {/* Segunda linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(joalheria, "w-full h-[400px] md:h-[500px]")}
-        {renderMarca(relogios, "w-full h-[400px] md:h-[500px]")}
+        {renderMarca(joalheria, "w-full h-[500px] md:h-[600px]")}
+        {renderMarca(relogios, "w-full h-[500px] md:h-[600px]")}
       </div>
     </section>
   );
