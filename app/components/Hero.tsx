@@ -16,7 +16,7 @@ const slides = [
   {
     src: '/hero-2.png',
     alt: 'Modelo 2',
-    text: 'Laboratório próprio, marcas premium, técnicos especializados',
+    text: 'Laboratório próprio, marcas premium, técnicos especializados.',
   },
 ];
 
