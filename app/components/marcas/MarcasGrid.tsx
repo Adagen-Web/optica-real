@@ -86,14 +86,14 @@ const MarcasGrid = () => {
       
       {/* Primeira linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(armacoesLentes, "w-full h-[500px] md:h-[600px]")}
-        {renderMarca(lentesContato, "w-full h-[500px] md:h-[600px]")}
+        {renderMarca(armacoesLentes, "w-full h-[700px] md:h-[850px]")}
+        {renderMarca(lentesContato, "w-full h-[700px] md:h-[850px]")}
       </div>
       
       {/* Segunda linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(joalheria, "w-full h-[500px] md:h-[600px]")}
-        {renderMarca(relogios, "w-full h-[500px] md:h-[600px]")}
+        {renderMarca(joalheria, "w-full h-[700px] md:h-[850px]")}
+        {renderMarca(relogios, "w-full h-[700px] md:h-[850px]")}
       </div>
     </section>
   );
