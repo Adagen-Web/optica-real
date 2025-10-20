@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+
 const BusinessHours = () => {
   return (
     <section className="w-full bg-[#f7f6f2] relative z-10">
