@@ -66,7 +66,7 @@ const MarcasGrid = () => {
         </h3>
         
         {marca.description && (
-          <p className="text-sm md:text-base leading-relaxed font-normal font-public-sans mb-4 max-w-2xl opacity-90">
+          <p className="text-sm md:text-base leading-relaxed font-normal font-public-sans mb-8 max-w-2xl opacity-90">
             {marca.description}
           </p>
         )}
@@ -81,14 +81,14 @@ const MarcasGrid = () => {
       
       {/* Primeira linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(armacoesLentes, "w-full h-[700px] md:h-[850px]")}
-        {renderMarca(lentesContato, "w-full h-[700px] md:h-[850px]")}
+        {renderMarca(armacoesLentes, "w-full h-[700px] md:h-[900px]")}
+        {renderMarca(lentesContato, "w-full h-[700px] md:h-[900px]")}
       </div>
       
       {/* Segunda linha de duas colunas */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {renderMarca(joalheria, "w-full h-[700px] md:h-[850px]")}
-        {renderMarca(relogios, "w-full h-[700px] md:h-[850px]")}
+        {renderMarca(joalheria, "w-full h-[700px] md:h-[900px]")}
+        {renderMarca(relogios, "w-full h-[700px] md:h-[900px]")}
       </div>
     </section>
   );
