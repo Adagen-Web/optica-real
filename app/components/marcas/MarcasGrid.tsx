@@ -13,7 +13,7 @@ const marcas = [
     title: "Armações de grau e Lentes",
     layout: "vertical",
     textPosition: "left",
-    description: " Disponibilizamos uma variedade de armações de grau que aliam conforto, elegância e tecnologia. Nossas lentes são produzidas em laboratório próprio de tecnologia digital de última geração, garantindo precisão e qualidade óptica. Trabalhamos ainda com marcas reconhecidas mundialmente, como Essilor Varilux, Zeiss, Hoya e Rodenstock, assegurando durabilidade e alto desempenho visual."
+    description: "Disponibilizamos uma variedade de armações de grau que aliam conforto, elegância e tecnologia. Nossas lentes são produzidas em laboratório próprio de tecnologia digital de última geração, garantindo precisão e qualidade óptica. Trabalhamos ainda com marcas reconhecidas mundialmente, como Essilor Varilux, Zeiss, Hoya e Rodenstock, assegurando durabilidade e alto desempenho visual."
   },
   {
     image: "./lentes.jpg",
