@@ -11,36 +11,71 @@ const fadeUp = {
 const SectionOculosJoias = () => {
   return (
     <section className="w-full bg-off-white">
-      {/* Banner grande */}
-      <div className="relative w-full h-[400px] md:h-[700px]">
-        <Link href="/marcas">
-          <div className="relative w-full h-[400px] md:h-[700px] overflow-hidden group cursor-pointer">
-            <img
-              src="./oculos.png"
-              alt="Óculos solares"
-              className="w-full h-full object-cover object-left transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/45" />
-          </div>
-        </Link>
+      {/* Grid de duas colunas */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        {/* Seção Óculos Solares */}
+        <div className="relative w-full h-[400px] md:h-[500px]">
+          <Link href="/marcas">
+            <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden group cursor-pointer">
+              <img
+                src="./oculos.png"
+                alt="Óculos solares"
+                className="w-full h-full object-cover object-left transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/45" />
+            </div>
+          </Link>
 
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
-          variants={fadeUp}
-          className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
-        >
-          <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
-            Óculos solares<br />e armações
-          </h2>
-          <p className="text-sm md:text-base font-public-sans leading-snug">
-            Emílio Pucci; Carrera; Dolce Gabbana; Grazi; HB;<br />
-            Mirmarflex (infantil); Mormaii; Nano Vista (infantil); Polo Half<br />
-            Louren; Prada; Ray Ban; Stepper; Tom Ford; Versace; Vogue.
-          </p>
-        </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            variants={fadeUp}
+            className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
+          >
+            <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
+              Óculos solares
+            </h2>
+            <p className="text-sm md:text-base font-public-sans leading-snug">
+              Emílio Pucci; Carrera; Dolce Gabbana; Grazi; HB;<br />
+              Mirmarflex (infantil); Mormaii; Nano Vista (infantil); Polo Half<br />
+              Louren; Prada; Ray Ban; Stepper; Tom Ford; Versace; Vogue.
+            </p>
+          </motion.div>
+        </div>
+
+        {/* Seção Armações de grau e lentes */}
+        <div className="relative w-full h-[400px] md:h-[500px]">
+          <Link href="/marcas">
+            <div className="relative w-full h-[400px] md:h-[500px] overflow-hidden group cursor-pointer">
+              <img
+                src="./armacoes-lentes.png"
+                alt="Armações de grau e lentes"
+                className="w-full h-full object-cover object-left transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/45" />
+            </div>
+          </Link>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
+            variants={fadeUp}
+            className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
+          >
+            <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
+              Armações de grau<br />e lentes
+            </h2>
+            <p className="text-sm md:text-base font-public-sans leading-snug">
+              Armações de alta qualidade para todos os estilos<br />
+              e lentes com tecnologia avançada para<br />
+              máxima proteção e conforto visual.
+            </p>
+          </motion.div>
+        </div>
       </div>
 
       <div className="h-2" />
