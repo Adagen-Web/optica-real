@@ -1,4 +1,4 @@
-// components/MarcasGrid.tsx
+"use-client"
 
 const marcas = [
   {
