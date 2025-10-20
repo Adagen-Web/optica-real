@@ -48,7 +48,7 @@ const MarcasGrid = () => {
 
   const renderMarca = (marca: any, className: string = "") => (
     <div
-      className={`relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg ${className}`}
+      className={`relative mt-4 overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg ${className}`}
     >
       {/* Imagem de fundo */}
       <img
@@ -80,7 +80,7 @@ const MarcasGrid = () => {
   );
 
   return (
-    <section className="flex flex-col bg-off-white gap-4">
+    <section className="flex flex-col bg-off-white gap-4 mb-4">
       {/* Óculos Solares - Linha completa */}
       {renderMarca(oculosSolares, "w-full h-[500px] md:h-[600px]")}
       
