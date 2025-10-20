@@ -26,14 +26,14 @@ const SectionOculosJoias = () => {
             </div>
           </Link>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-            variants={fadeUp}
-            className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
-          >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          variants={fadeUp}
+          className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-right px-6 md:px-12 max-w-xl"
+        >
             <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
               Óculos solares
             </h2>

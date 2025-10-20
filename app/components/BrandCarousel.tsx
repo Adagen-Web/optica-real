@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { useEffect, useState } from 'react';
 
 const brands = [
   './brands/pucci.png',
@@ -20,6 +21,30 @@ const brands = [
 ];
 
 const BrandCarousel = () => {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <div className="relative w-full bg-white py-6 px-4">
+        <div className="flex justify-center items-center gap-8 overflow-x-auto">
+          {brands.slice(0, 6).map((src, index) => (
+            <div key={index} className="flex-shrink-0">
+              <img
+                src={src}
+                alt={`Marca ${index}`}
+                className="object-contain max-h-24 w-auto"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="relative w-full bg-white py-6 px-4">
       <Swiper
