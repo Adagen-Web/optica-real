@@ -1,3 +1,4 @@
+'use client';
 const SectionPublico = () => {
   return (
     <section className="bg-[#f7f5f0] border-t border-[#c8a979] py-12">

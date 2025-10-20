@@ -1,3 +1,4 @@
+'use client';
 const SectionTitle = () => {
   return (
     <section className="bg-off-white py-12 border-t border-[#707070] text-center">

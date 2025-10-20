@@ -1,3 +1,4 @@
+'use client';
 const SectionSobre = () => {
   return (
     <section className="w-full bg-white">

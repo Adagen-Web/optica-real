@@ -1,3 +1,5 @@
+'use client';
+
 const MapSection = () => {
   return (
     <section className="pt-16 z-0 relative w-full h-[600px] bg-off-white">

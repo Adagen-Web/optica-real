@@ -1,3 +1,4 @@
+'use client';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const SectionContato = () => {

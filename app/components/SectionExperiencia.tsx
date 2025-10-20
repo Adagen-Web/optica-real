@@ -1,3 +1,4 @@
+'use client';
 const SectionExperiencia = () => {
   return (
     <section className="relative w-full h-[430px] md:h-[660px]">

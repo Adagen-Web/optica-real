@@ -1,4 +1,5 @@
-// components/MarcasHero.tsx
+'use client';
+
 const MarcasHero = () => {
   return (
     <section className="relative w-full h-[65vh]">

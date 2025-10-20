@@ -1,3 +1,5 @@
+'use client';
+
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { HiArrowUp } from 'react-icons/hi';
 

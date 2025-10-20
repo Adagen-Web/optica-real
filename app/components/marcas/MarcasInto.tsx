@@ -1,4 +1,5 @@
-// components/MarcasIntro.tsx
+'use client';
+
 const MarcasIntro = () => {
   return (
     <section className="bg-[#BA9557] text-white py-12 md:px-156 px-4 text-center text-sm md:text-xl leading-relaxed">
