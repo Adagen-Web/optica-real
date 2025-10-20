@@ -4,11 +4,6 @@ const marcas = [
   {
     image: "./oculos.png",
     title: "Óculos solares",
-    brands: [
-      "Pucci", " Carrera", " Dolce Gabbana", " Emílio Pucci", " Grazi", " HB",
-      " Mirmarflex (infantil)", " Mormaii", " Nano Vista (infantil)", " Polo Half Louren",
-      " Prada", " Ray Ban", " Stepper", " Tom Ford", " Versace", "Vogue"
-    ],
     layout: "vertical",
     textPosition: "right",
     description: "Trabalhamos com uma ampla linha de óculos solares das melhores marcas nacionais e importadas, reconhecidas pela qualidade, autenticidade e design moderno. Nossos modelos oferecem proteção, conforto e estilo, com opções para todos os gostos — dos clássicos aos contemporâneos — e contam com garantia e assistência no pós-venda."
