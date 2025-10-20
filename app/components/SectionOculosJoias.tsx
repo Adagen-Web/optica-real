@@ -89,7 +89,7 @@ const SectionOculosJoias = () => {
             image: './joias.png',
           },
           {
-            title: 'Relojoaria',
+            title: 'Relógios',
             description: 'Casio; Guess; Mondaine;\nOrient; Technos.',
             image: './relojoaria.png',
           },
