@@ -4,35 +4,30 @@ const marcas = [
   {
     image: "./oculos.png",
     title: "Óculos solares",
-    layout: "vertical",
     textPosition: "right",
     description: "Trabalhamos com uma ampla linha de óculos solares das melhores marcas nacionais e importadas, reconhecidas pela qualidade, autenticidade e design moderno. Nossos modelos oferecem proteção, conforto e estilo, com opções para todos os gostos — dos clássicos aos contemporâneos — e contam com garantia e assistência no pós-venda."
   },
   {
     image: "./armacoes-lentes.png",
     title: "Armações de grau e Lentes",
-    layout: "vertical",
     textPosition: "left",
     description: "Disponibilizamos uma variedade de armações de grau que aliam conforto, elegância e tecnologia. Nossas lentes são produzidas em laboratório próprio de tecnologia digital de última geração, garantindo precisão e qualidade óptica. Trabalhamos ainda com marcas reconhecidas mundialmente, como Essilor Varilux, Zeiss, Hoya e Rodenstock, assegurando durabilidade e alto desempenho visual."
   },
   {
     image: "./lentes.jpg",
     title: "Lentes de contato",
-    layout: "vertical",
     textPosition: "left",
     description: "Oferecemos lentes de contato de alta performance das principais marcas do mercado, desenvolvidas para proporcionar conforto, nitidez e adaptação natural aos olhos. Contamos com suporte técnico especializado, ajudando cada cliente a escolher a lente mais adequada ao seu estilo de vida e necessidade visual."
   },
   {
     image: "./joias.png",
     title: "Joias",
-    layout: "vertical",
     textPosition: "left",
     description: "Em nossa joalheria, você encontra peças em ouro 18k (Au 750), ouro 10k (Au 416) e prata 925, além de joias autorais exclusivas. Trabalhamos com fabricantes selecionados e garantimos procedência e autenticidade, oferecendo também consertos e assistência, preservando o brilho e o valor das suas peças."
   },
   {
     image: "./relojoaria.png",
     title: "Relógios",
-    layout: "vertical",
     textPosition: "left",
     description: "Apresentamos uma seleção de relógios masculinos e femininos de marcas conceituadas, com design moderno e sofisticado, adequados a todos os estilos — clássico, casual ou esportivo. Oferecemos também assistência técnica e conserto, garantindo durabilidade e funcionamento impecável de cada peça."
   }
