@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 const slides = [
   {
-    src: '/hero.jpg',
+    src: '/hero-novo.png',
     alt: 'Modelo 1',
     text: 'Joias, Óculos e Relógios com mais de 70 anos de sofisticação.',
   },
@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="relative w-full h-[75vh] md:h-screen">
         <div className="relative h-full w-full">
           <img
-            src="/hero.jpg"
+            src="/hero-novo.png"
             alt="Modelo 1"
             className="object-cover h-full w-full object-center"
           />

@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 
 const brands = [
   './brands/pucci.png',
-  './brands/Armani.png',
   './brands/gucci.png',
   './brands/Prada.png',
   './brands/Rayban.png',

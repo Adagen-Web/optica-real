@@ -38,10 +38,8 @@ const SectionOculosJoias = () => {
             <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
               Óculos solares
             </h2>
-            <p className="text-sm md:text-base font-public-sans leading-snug">
-              Emílio Pucci; Carrera; Dolce Gabbana; Grazi; HB;<br />
-              Mirmarflex (infantil); Mormaii; Nano Vista (infantil); Polo Half<br />
-              Louren; Prada; Ray Ban; Stepper; Tom Ford; Versace; Vogue.
+            <p className="text-xs md:text-sm font-public-sans leading-relaxed">
+              Trabalhamos com uma ampla linha de óculos solares e armações, marcas nacionais e importadas reconhecidas pela qualidade com a garantia e assistência no pós-venda.
             </p>
           </motion.div>
         </div>
@@ -70,10 +68,8 @@ const SectionOculosJoias = () => {
             <h2 className="text-3xl font-heebo md:text-5xl font-normal mb-2">
               Armações de grau<br />e lentes
             </h2>
-            <p className="text-sm md:text-base font-public-sans leading-snug">
-              Armações de alta qualidade para todos os estilos<br />
-              e lentes com tecnologia avançada para<br />
-              máxima proteção e conforto visual.
+            <p className="text-xs md:text-sm font-public-sans leading-relaxed">
+              Além de marca Exclusiva de multifocais fabricada em laboratórios de tecnologia digital de última geração, também trabalhamos com as marcas renomadas e mundialmente conhecidas como: Essilor Varilux, Zeiss, Hoya e Rodenstock. Possuímos laboratório de montagem com equipamentos de precisão para aferição das medidas e dioptrias prescritas.
             </p>
           </motion.div>
         </div>
@@ -86,17 +82,17 @@ const SectionOculosJoias = () => {
         {[
           {
             title: 'Jóias',
-            description: 'Bruner; Guiandani; Ícaro;\nJoias autorais.',
+            description: 'No seguimento da joalheria trabalhamos com joias material em ouro 18k ( Au 750) ouro 10k ( Au 416) e joias em Prata 925. Além das Joias autorais, pensadas por designer próprio, trabalhamos também com fabricantes selecionados com toda a garantia de procedência para o cliente sentir-se seguro na sua escolha. Consertos e assistência em joias.',
             image: './joias.png',
           },
           {
             title: 'Relógios',
-            description: 'Casio; Guess; Mondaine;\nOrient; Technos.',
+            description: 'Possuímos uma seleção de relógios masculinos e femininos de marcas conceituadas e design modernos e atuais para todos os estilos desde os clássicos, casuais ou esportivos. Assistência e conserto.',
             image: './relojoaria.png',
           },
           {
             title: 'Lentes de contato',
-            description: 'Bausch Lomb; Coopervision;\nJohnson & Johnson;',
+            description: 'Trabalhamos com lentes de contato de alta performance das principais marcas do mercado, garantindo conforto e saúde visual para o seu dia a dia.',
             image: './lentes.jpg',
           },
         ].map((item, index) => (
@@ -117,7 +113,7 @@ const SectionOculosJoias = () => {
               <div className="absolute inset-0 bg-black/45 transition-opacity group-hover:bg-black/50" />
               <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white text-center px-4">
                 <h3 className="text-3xl md:text-5xl font-heebo font-normal mb-1">{item.title}</h3>
-                <p className="text-sm font-public-sans whitespace-pre-line">{item.description}</p>
+                <p className="text-xs md:text-sm font-public-sans whitespace-pre-line">{item.description}</p>
               </div>
             </motion.div>
           </Link>

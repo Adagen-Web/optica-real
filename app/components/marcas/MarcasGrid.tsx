@@ -5,31 +5,31 @@ const marcas = [
     image: "./oculos.png",
     title: "Óculos solares",
     textPosition: "right",
-    description: "Trabalhamos com uma ampla linha de óculos solares das melhores marcas nacionais e importadas, reconhecidas pela qualidade, autenticidade e design moderno. Nossos modelos oferecem proteção, conforto e estilo, com opções para todos os gostos — dos clássicos aos contemporâneos — e contam com garantia e assistência no pós-venda."
+    description: "Trabalhamos com uma ampla linha de óculos solares e armações, marcas nacionais e importadas reconhecidas pela qualidade com a garantia e assistência no pós-venda."
   },
   {
     image: "./armacoes-lentes.png",
     title: "Armações de grau e Lentes",
     textPosition: "left",
-    description: "Disponibilizamos uma variedade de armações de grau que aliam conforto, elegância e tecnologia. Nossas lentes são produzidas em laboratório próprio de tecnologia digital de última geração, garantindo precisão e qualidade óptica. Trabalhamos ainda com marcas reconhecidas mundialmente, como Essilor Varilux, Zeiss, Hoya e Rodenstock, assegurando durabilidade e alto desempenho visual."
+    description: "Além de marca Exclusiva de multifocais fabricada em laboratórios de tecnologia digital de última geração, também trabalhamos com as marcas renomadas e mundialmente conhecidas como: Essilor Varilux, Zeiss, Hoya e Rodenstock. Possuímos laboratório de montagem com equipamentos de precisão para aferição das medidas e dioptrias prescritas."
   },
   {
     image: "./lentes.jpg",
     title: "Lentes de contato",
     textPosition: "left",
-    description: "Oferecemos lentes de contato de alta performance das principais marcas do mercado, desenvolvidas para proporcionar conforto, nitidez e adaptação natural aos olhos. Contamos com suporte técnico especializado, ajudando cada cliente a escolher a lente mais adequada ao seu estilo de vida e necessidade visual."
+    description: "Trabalhamos com lentes de contato de alta performance das principais marcas do mercado, desenvolvidas para proporcionar conforto, nitidez e adaptação natural aos olhos. Contamos com suporte técnico especializado para a sua necessidade visual."
   },
   {
     image: "./joias.png",
     title: "Joias",
     textPosition: "left",
-    description: "Em nossa joalheria, você encontra peças em ouro 18k (Au 750), ouro 10k (Au 416) e prata 925, além de joias autorais exclusivas. Trabalhamos com fabricantes selecionados e garantimos procedência e autenticidade, oferecendo também consertos e assistência, preservando o brilho e o valor das suas peças."
+    description: "No seguimento da joalheria trabalhamos com joias material em ouro 18k ( Au 750) ouro 10k ( Au 416) e joias em Prata 925. Além das Joias autorais, pensadas por designer próprio, trabalhamos também com fabricantes selecionados com toda a garantia de procedência para o cliente sentir-se seguro na sua escolha. Consertos e assistência em joias."
   },
   {
     image: "./relojoaria.png",
     title: "Relógios",
     textPosition: "left",
-    description: "Apresentamos uma seleção de relógios masculinos e femininos de marcas conceituadas, com design moderno e sofisticado, adequados a todos os estilos — clássico, casual ou esportivo. Oferecemos também assistência técnica e conserto, garantindo durabilidade e funcionamento impecável de cada peça."
+    description: "Possuímos uma seleção de relógios masculinos e femininos de marcas conceituadas e design modernos e atuais para todos os estilos desde os clássicos, casuais ou esportivos. Assistência e conserto."
   }
 ];
 

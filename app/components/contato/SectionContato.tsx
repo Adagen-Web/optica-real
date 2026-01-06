@@ -30,9 +30,8 @@ const SectionContato = () => {
         {/* Coluna: Telefones */}
         <div className="space-y-3 font-public-sans">
           <h4 className="tracking-[2.5px] uppercase text-xl font-light font-heebo">Telefones</h4>
-          <p>51 | 3664.1677</p>
-          <p>51 | 3626.1913</p>
-          <p>51 | 99801.1913</p>
+          <p>(51) 3665-1677</p>
+          <p>(51) 98501-1913 (WhatsApp)</p>
         </div>
       </div>
     </section>
