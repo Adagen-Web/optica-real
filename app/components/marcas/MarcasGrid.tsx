@@ -11,7 +11,7 @@ const marcas = [
     image: "./armacoes-lentes.png",
     title: "Armações de grau e Lentes",
     textPosition: "left",
-    description: "Além de marca Exclusiva de multifocais fabricada em laboratórios de tecnologia digital de última geração, também trabalhamos com as marcas renomadas e mundialmente conhecidas como: Essilor Varilux, Zeiss, Hoya e Rodenstock. Possuímos laboratório de montagem com equipamentos de precisão para aferição das medidas e dioptrias prescritas."
+    description: "Além de marca Exclusiva de multifocais fabricada em laboratórios de tecnologia digital de última geração, também trabalhamos com as marcas renomadas e mundialmente conhecidas como: Essilor Varilux, Zeiss, Hoya e Rodenstock. E também lentes de contato. Possuímos laboratório de montagem com equipamentos de precisão para aferição das medidas e dioptrias prescritas. "
   },
   {
     image: "./lentes.jpg",
@@ -23,7 +23,7 @@ const marcas = [
     image: "./joias.png",
     title: "Joias",
     textPosition: "left",
-    description: "No seguimento da joalheria trabalhamos com joias material em ouro 18k ( Au 750) ouro 10k ( Au 416) e joias em Prata 925. Além das Joias autorais, pensadas por designer próprio, trabalhamos também com fabricantes selecionados com toda a garantia de procedência para o cliente sentir-se seguro na sua escolha. Consertos e assistência em joias."
+    description: "No seguimento da joalheria trabalhamos com joias material em ouro 18k ( Au 750) ouro 10k ( Au 416) e joias em Prata 925. Alem das Joias autorais, pensadas por designer próprio, trabalhamos também com fabricantes selecionados com toda a garantia de procedência para o cliente sentir-se seguro na sua escolha. Consertos e assistência em joias. "
   },
   {
     image: "./relojoaria.png",

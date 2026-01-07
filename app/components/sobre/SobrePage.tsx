@@ -29,12 +29,6 @@ const SobrePage = () => {
           <p>
             Atualmente a Real é dirigida pela família, com três profissionais ópticos formados que oferecem o respaldo da parte técnica.
           </p>
-          <p>
-            Em 2013, um importante passo foi dado com a importação do laboratório óptico GOMES, de tecnologia digital diretamente da Itália, berço do setor óptico mundial. Esse avanço garantiu um serviço ainda mais preciso, ágil e de alta qualidade, com laboratório próprio que assegura excelência em cada detalhe.
-          </p>
-          <p>
-            Com ajustes gratuitos, garantia de autenticidade em joias e relógios e um compromisso inabalável com a satisfação do cliente, a Real consolida sua reputação construída ao longo de mais de 70 anos de história.
-          </p>
         </div>
       </section>
     </main>
