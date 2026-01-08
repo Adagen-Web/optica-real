@@ -55,13 +55,13 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-2">
-            <a href="#" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
+            <a href="https://www.facebook.com/opticarealtorres/?locale=pt_BR" target="_blank" rel="noopener noreferrer" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaFacebookF size={16} />
             </a>
-            <a href="#" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
+            <a href="https://www.instagram.com/opticarealtorres/" target="_blank" rel="noopener noreferrer" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaInstagram size={16} />
             </a>
-            <a href="https://wa.me/5551985011913" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
+            <a href="https://wa.me/5551985011913" target="_blank" rel="noopener noreferrer" className="bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:scale-110 transition">
               <FaWhatsapp size={16} />
             </a>
             <a href="/" className="border border-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-white hover:text-black transition">

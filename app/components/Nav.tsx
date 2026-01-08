@@ -70,8 +70,8 @@ const Navbar = () => {
 
         {/* Ícones sociais */}
         <div className="hidden md:flex gap-4 text-orange text-lg">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://www.facebook.com/opticarealtorres/?locale=pt_BR" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+          <a href="https://www.instagram.com/opticarealtorres/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a href="https://wa.me/5551985011913" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
         </div>
 
@@ -113,8 +113,8 @@ const Navbar = () => {
           <Link href="/contato" className="block hover:text-orange">CONTATO</Link>
 
           <div className="flex gap-4 mt-4 text-orange">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.facebook.com/opticarealtorres/?locale=pt_BR" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/opticarealtorres/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://wa.me/5551985011913" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
           </div>
         </nav>
