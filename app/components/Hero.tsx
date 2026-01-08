@@ -12,7 +12,7 @@ const slides = [
   {
     src: '/hero-novo.png',
     alt: 'Modelo 1',
-    text: 'Joias, Óculos e Relógios com mais de 70 anos de sofisticação.',
+    text: 'Joias, Óculos e Relógios com mais de 70 anos de tradição.',
   },
   {
     src: '/hero-2.png',
