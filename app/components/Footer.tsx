@@ -16,7 +16,7 @@ const Footer = () => {
           <p className='font-public-sans'>contato@oticarealtorres.com.br</p>
 
           <p className="pt-4 text-xl tracking-[2px] text-white font-heebo font-normal">FONES</p>
-          <p className='font-public-sans'>(51) 3665-1677</p>
+          <p className='font-public-sans'>(51) 3664-1677</p>
           <p className='font-public-sans'>(51) 98501-1913 (WhatsApp)</p>
         </div>
 
