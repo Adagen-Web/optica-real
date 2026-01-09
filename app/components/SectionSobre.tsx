@@ -25,7 +25,7 @@ const SectionSobre = () => {
           {/* Imagem 1: topo no mobile, canto superior esquerdo no desktop */}
           <div className="md:row-span-1 md:col-span-1 w-full h-full overflow-hidden">
             <img
-              src="/homens.jpg"
+              src="/homens2.jpg"
               alt="Modelo óculos 1"
               className="w-full h-full object-cover"
             />
