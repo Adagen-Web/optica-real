@@ -1,5 +1,9 @@
 'use client';
+import { useRouter } from 'next/navigation';
+
 const SectionSobre = () => {
+  const router = useRouter();
+  
   return (
     <section className="w-full bg-white">
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch">
@@ -13,7 +17,7 @@ const SectionSobre = () => {
               Nós da Real oferecemos o que há de melhor no mundo da relojoaria e ótica.{' '}
               <span className="font-extrabold">Encontre a peça que reflete a sua personalidade!</span>
             </p>
-            <button className="border cursor-pointer border-gray-700 text-gray-800 px-6 py-3 mt-6 text-sm rounded hover:bg-gray-100 transition w-fit">
+            <button onClick={() => router.push('/sobre')} className="border cursor-pointer border-gray-700 text-gray-800 px-6 py-3 mt-6 text-sm rounded hover:bg-gray-100 transition w-fit">
               Saiba mais sobre nós
             </button>
           </div>
